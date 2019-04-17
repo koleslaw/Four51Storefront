@@ -2,11 +2,11 @@ body {
 	font-family: "HelveticaNeue", helvetica, arial, sans-serif;
 }
 
-/*
-header.navbar nav.navbar {
-	background: #1a6a7a;
+
+.navbar-default {
+    background-color: #1a6a7a;
+    border-color: #165865;
 }
-*/
 
 .navbar-default .navbar-nav > li > a {
 	color: #ffffff;
@@ -14,7 +14,8 @@ header.navbar nav.navbar {
 }
 
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #ffffff;
     background-color: #165865;
 }
