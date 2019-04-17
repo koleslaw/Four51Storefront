@@ -2,6 +2,13 @@ body {
 	font-family: "HelveticaNeue", helvetica, arial, sans-serif;
 }
 
+/*
 header.navbar nav.navbar {
 	background: #1a6a7a;
+}
+*/
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #1a6a7a;
 }
