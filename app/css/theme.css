@@ -37,7 +37,7 @@ body, span, div, h1, h2, h3, h4, h5, h6, a, b, i, small {
 	margin-top: 165px;
 }
 
-.btn-success {
+.btn-default {
 	color: #ffffff;
 	background-color: #F24900;
 	border-color: #b73a04;
