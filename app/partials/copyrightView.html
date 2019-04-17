@@ -6,6 +6,14 @@
                     <strong>{{'Powered by' | xlat}} Vivid Impact</strong>
                 </a>
             </p>
+            <p class="text-center">
+                    {{'Copyright' | xlat}} © {{year}}<br /> Vivid Impact <br>{{'All Rights Reserved' | xlat}}.<br />
+                    <span ng-if="!(user.Permissions.contains('HideTerms'))">
+                        <a class="btn btn-default btn-sm" href="conditions">
+                            {{'Conditions of Use' | xlat}}
+                        </a>
+                    </span>
+                </p>            
         </div>
     </div>
 </footer>
