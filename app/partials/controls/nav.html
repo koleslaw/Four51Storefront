@@ -1,7 +1,20 @@
 
 <header class="header navbar navbar-inner">
-    <div class="above-nav">&nbsp;</div>        
     <nav tolerance='20' offset='200' class="navbar navbar-default navbar-fixed-top" role="navigation" headroom>
+            <div class="above-nav">&nbsp;</div>
+            <section class="jumbotron" ng-class="{'active': isActive('catalog')}" ng-show="user.Company.LogoUrl">
+                    <div class="container">
+                        <h2 class="thumbnail" ng-show="Four51User.isAuthenticated()">
+                            <a href="catalog">
+                                <img ng-src="{{user.Company.LogoUrl}}" />
+                            </a>
+                            <span>{{user.Company.Name}}</span>
+                            <homemessage />
+                        </h2>
+                    </div>
+                </section>
+
+
             <section>
             <div class="container">
                 <ul class="nav navbar-nav pull-left">
