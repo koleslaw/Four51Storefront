@@ -8,7 +8,13 @@ header.navbar nav.navbar {
 }
 */
 
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+	background-color: #1a6a7a;
+}
+
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #1a6a7a;
+    color: #ffffff;
+    background-color: #165865;
 }
