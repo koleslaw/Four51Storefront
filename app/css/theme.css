@@ -1,3 +1,7 @@
 body {
-	background: red !important;
+	font-family: "HelveticaNeue", helvetica, arial, sans-serif;
+}
+
+ul.navbar-nav {
+	background: #1a6a7a;
 }
