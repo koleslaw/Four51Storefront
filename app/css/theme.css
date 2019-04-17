@@ -1,12 +1,8 @@
 /* font override */
 body, span, div, h1, h2, h3, h4, h5, h6, a, b, i, small {
 	font-family: "HelveticaNeue", helvetica, arial, sans-serif;
-	font-weight: 300;
-}
-a {
 	font-weight: 400;
 }
-
 
 .above-nav {
 	min-height: 32px;
