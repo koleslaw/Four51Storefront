@@ -52,7 +52,7 @@ a {
 	border: solid 1px #7f878c;
 	color: #fff;
 }
-.panel-title {
+.panel .panel-heading .panel-title {
 	font-size: 18px;
 }
 
