@@ -33,6 +33,9 @@ body, span, div, h1, h2, h3, h4, h5, h6, a, b, i, small {
 .banner {
 	background: #ffffff;
 }
+.container-view {
+	margin-top: 165px;
+}
 .navbar-fixed-top {
 	/* top: 200px */
 }
