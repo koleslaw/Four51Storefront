@@ -1,7 +1,7 @@
-body {
+/* font override */
+body, span, div, h1, h2, h3, h4, h5, h6, a, b, i, small {
 	font-family: "HelveticaNeue", helvetica, arial, sans-serif;
 }
-
 
 .navbar-default {
     background-color: #1a6a7a;
@@ -13,9 +13,12 @@ body {
 	background-color: #1a6a7a;
 }
 
-
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #ffffff;
     background-color: #165865;
+}
+
+.text-info {
+	color: #1a6a7a;
 }
