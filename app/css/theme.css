@@ -29,3 +29,15 @@ body, span, div, h1, h2, h3, h4, h5, h6, a, b, i, small {
 .jumbotron h2 span {
 	float: right;
 }
+
+@media only screen and (max-width:469px) {
+
+	.jumbotron h2 a {
+		float: none;
+	}
+
+	.jumbotron h2 span {
+		float: none;
+	}
+
+}
